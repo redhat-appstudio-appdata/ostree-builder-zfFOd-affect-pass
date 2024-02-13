@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: my-component
     app.kubernetes.io/part-of: ostree-builder
-  name: my-component6wtx
+  name: my-componentdb3g
 spec:
   port:
     targetPort: 8080

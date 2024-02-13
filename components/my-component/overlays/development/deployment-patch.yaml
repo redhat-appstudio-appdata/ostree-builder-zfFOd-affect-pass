@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: my-component
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/shebert-tenant/ostree-builder/my-component@sha256:e99e4a8630e27803bff3bf6878ea9bd246696c00a8e084704642f6628c1a5774
+      - image: quay.io/redhat-user-workloads/shebert-tenant/ostree-builder/my-component@sha256:741d1f44430f16f21a9241c9339c6a27bce4889c57e73d7ccb39bd0fd691fa29
         name: container-image
         resources: {}
 status: {}
