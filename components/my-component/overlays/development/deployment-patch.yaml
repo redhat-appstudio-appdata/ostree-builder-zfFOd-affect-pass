@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/shebert-tenant/ostree-builder/my-component@sha256:741d1f44430f16f21a9241c9339c6a27bce4889c57e73d7ccb39bd0fd691fa29
+      - image: quay.io/redhat-user-workloads/shebert-tenant/ostree-builder/my-component@sha256:3a145c386b54df4e9a2f5921b5518c0dc387238faed6772c146b6ff55c30c5f5
         name: container-image
         resources: {}
 status: {}
